@@ -52,7 +52,7 @@ public class SearchPage extends BasePage {
     // Método para seleccionar "Perfumes de Hombre"
     public void selectMensPerfumes () {
 
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(2));;
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(2));
         wait.until(ExpectedConditions.visibilityOf(mensPerfumes));
         clickElement(mensPerfumes);
     }
